@@ -1,0 +1,23 @@
+.navbar {
+    display:flex;
+}
+
+.item {
+    flex-grow: 1;
+    font-family: Arial;
+    font-size: 150%;
+    color: white;
+    background-color:black;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 20%;
+}    
+
+.bilder {
+    display: flex;
+}
+
+.bild {
+    flex-grow: 1;  
+
+}
