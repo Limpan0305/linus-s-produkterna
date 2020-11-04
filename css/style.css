@@ -2,22 +2,31 @@
     display:flex;
 }
 
+.bilder {
+    display:flex;
+}
+
+.navbar a:hover{
+    font-size: 110%;
+}
+
+.itembild a:hover{
+    font-size: 120%;
+}
+
 .item {
     flex-grow: 1;
-    font-family: Arial;
-    font-size: 150%;
-    color: white;
-    background-color:black;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 20%;
-}    
+    font-family: Helvetica;
+    font-size: 220%;
+    padding: 10px;  
+} 
 
-.bilder {
-    display: flex;
+
+.itembild {
+    margin-right: 2%;
+    padding: 10px;
 }
 
 .bild {
     flex-grow: 1;  
-
 }
