@@ -1,3 +1,11 @@
+.body {
+    background-image: url('../bilder/Våg.jpg');
+    background-size: cover;
+    padding: 0%;
+    margin: 0%;
+    
+}
+
 .navbar {
     display:flex;
 }
@@ -7,26 +15,52 @@
 }
 
 .navbar a:hover{
-    font-size: 110%;
+    font-size: 150%;
 }
 
 .itembild a:hover{
-    font-size: 120%;
+    font-size: 150%;
 }
 
 .item {
-    flex-grow: 1;
-    font-family: Helvetica;
-    font-size: 220%;
-    padding: 10px;  
+    flex-grow:1;
+    display: flex;
+    font-family: helvetica;
+    justify-content: center;
+    align-items: center;
+    font-size: 100 px;
+    width: 650px;
+    height: 57px;
+    align-content: space-evenly;
+    color: black;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top: 3px;
+    border-radius: 20px;
+    background-color: grey;
+    border: 3px solid black;
+    box-sizing: border-box;
 } 
 
 
 .itembild {
-    margin-right: 2%;
-    padding: 10px;
+    flex-grow:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 57px;
+    align-content: space-evenly;
+    color: black;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top: 3px;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-sizing: border-box;
 }
 
 .bild {
-    flex-grow: 1;  
+    flex-grow: 1; 
+    justify-content: center; 
 }
