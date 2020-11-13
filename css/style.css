@@ -1,5 +1,5 @@
 .body {
-    background-image: url('../bilder/Våg.jpg');
+    background-image: url('../bilder/bakgrund.jpg');
     background-size: cover;
     padding: 0%;
     margin: 0%;
@@ -19,7 +19,7 @@
 }
 
 .itembild a:hover{
-    font-size: 150%;
+    font-size: 200%;
 }
 
 .item {
@@ -37,7 +37,7 @@
     margin-right: 5%;
     margin-top: 3px;
     border-radius: 20px;
-    background-color: grey;
+    background-color: white;
     border: 3px solid black;
     box-sizing: border-box;
 } 
@@ -56,6 +56,7 @@
     margin-right: 5%;
     margin-top: 3px;
     border-radius: 20px;
+    background-color: white;
     border: 3px solid black;
     box-sizing: border-box;
 }
@@ -63,4 +64,10 @@
 .bild {
     flex-grow: 1; 
     justify-content: center; 
+}
+
+.h1 {
+    font-family: helvetica;
+    display: flex;
+    font-size: 20 px;
 }
