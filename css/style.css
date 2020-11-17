@@ -12,14 +12,11 @@
 
 .bilder {
     display:flex;
+    position: relative;
 }
 
 .navbar a:hover{
     font-size: 150%;
-}
-
-.itembild a:hover{
-    font-size: 200%;
 }
 
 h1 {
@@ -48,28 +45,45 @@ h1 {
     box-sizing: border-box;
 } 
 
-
-.itembild {
-    flex-grow:1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 650px;
-    height: 57px;
-    align-content: space-evenly;
-    color: black;
-    margin-left:5%;
-    margin-right: 5%;
-    margin-top: 3px;
-    border-radius: 20px;
-    background-color: white;
-    border: 3px solid black;
-    box-sizing: border-box;
-}
-
-.bild {
+.iphone12pro {
     flex-grow: 1; 
     justify-content: center; 
+    text-align: center;
+    background-color: blue;
+}
+
+.applewatch {
+    flex-grow: 1; 
+    justify-content: center; 
+    text-align: center;
+    background-color: teal;
+}
+
+.homepod {
+    flex-grow: 1; 
+    justify-content: center; 
+    text-align: center;
+    margin-top:5%;
+    margin-right: 30px;
+    background-color: chartreuse;
+}
+
+.iphone12pro a {
+    font-family: helvetica;
+    font-size: 20px;
+    position: left;
+}
+
+.applewatch a {
+    font-family: helvetica;
+    font-size: 20px;
+    position: left;
+}
+
+.homepod a {
+    font-family: helvetica;
+    font-size: 20px;
+    position: left;
 }
 
 .footer{
@@ -104,6 +118,23 @@ h1 {
     word-spacing: 40px;
     justify-content: center;
     margin-top: 40%;
+}
+
+h2 {
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+.iphone12pro:hover {
+    transform: scale(1.1);
+}
+
+.applewatch:hover {
+    transform: scale(1.1);
+}
+
+.homepod:hover {
+    transform: scale(1.1);
 }
 
 
