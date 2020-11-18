@@ -1,23 +1,26 @@
 .body {
-    background-image: url('../bilder/bakgrund.jpg');
+    background-image: url('../bilder/bakgrund.jpg'); 
     background-size: cover;
     padding: 0%;
-    margin: 0%;
-    
+    margin: 0%;    
 }
+/* Lägger in en bild som bakgrundsbild och fyller den på skärmen */
 
 .navbar {
     display:flex;
 }
+/* Gör min navbar flex */
 
 .bilder {
     display:flex;
     position: relative;
 }
+/* Gör mina bilder flex */
 
 .navbar a:hover{
     font-size: 150%;
 }
+/* Ökar storlek på min navbar vid hover */
 
 h1 {
     font-family: helvetica;
@@ -25,6 +28,8 @@ h1 {
     font-size: 50px;
     justify-content: center;
 }
+/* Gör min rubrik(h1) större och flex */
+
 .item {
     flex-grow:1;
     display: flex;
@@ -44,20 +49,21 @@ h1 {
     border: 3px solid black;
     box-sizing: border-box;
 } 
+/* Jag gör mina navbar till "knappar" och justerar hur stora, breda och höga de ska va */
 
 .iphone12pro {
     flex-grow: 1; 
     justify-content: center; 
     text-align: center;
-    background-color: blue;
 }
+/* Gör min bild flex */
 
 .applewatch {
     flex-grow: 1; 
     justify-content: center; 
     text-align: center;
-    background-color: teal;
 }
+/* Gör bilden till flex */
 
 .homepod {
     flex-grow: 1; 
@@ -65,77 +71,87 @@ h1 {
     text-align: center;
     margin-top:5%;
     margin-right: 30px;
-    background-color: chartreuse;
 }
+/* Gör min bild flex */
 
 .iphone12pro a {
     font-family: helvetica;
     font-size: 20px;
-    position: left;
 }
+/* Gör text till bild större och ändrar typsnitt */
 
 .applewatch a {
     font-family: helvetica;
     font-size: 20px;
-    position: left;
 }
+/* Gör text till bild större och ändrar typsnitt */
 
 .homepod a {
     font-family: helvetica;
     font-size: 20px;
-    position: left;
 }
+/* Gör text till bild större och ändrar typsnitt */
 
 .footer{
-    font-size: 20px;
-    color: white;
     text-align: center;
     background-color: #343a40;
-    align-content: space-evenly;
 }
+/* Sätter texten i mitten, och bytte färg på bakgrunden*/
 
 .info {
     height: 35px;
     font-size: 20px;
     font-family: Helvetica;
+    color: white;
     word-spacing: 40px;
     justify-content: center;
     margin-top: 10%;
 }
+/* Ändrar storlek på övre diven i footern, text familj, textstorlek, mellanrum mellan olika kontaktuppgifterna och avståndet till bilder då det finns bilder på denna sida med denna div class */
 
 .copyright {
     background-color: #303036;
+    color: white;
     width: 100%;
     height: 30px;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
 }
+/* Ändrar storlek på nedre diven i footern, textstorlek, färg på texten, och text familj.*/
 
 .bottom {
     height: 35px;
     font-size: 20px;
     font-family: Helvetica;
+    color: white;
     word-spacing: 40px;
     justify-content: center;
     margin-top: 40%;
 }
+/* Ändrar storlek på övre diven i footern och textstorlek, textstorlek, mellanrum mellan olika kontaktuppgifterna och avståndet till navbar då det inte finns bilder på sidor med denna div class */
+
 
 h2 {
     font-family: helvetica;
     font-size: 20px;
 }
+/* Ändrar storlek och familj på underrubriker(h2) */
 
 .iphone12pro:hover {
     transform: scale(1.1);
 }
+/* Ändrar storlek på bilder vid hover */
 
 .applewatch:hover {
     transform: scale(1.1);
 }
+/* Ändrar storlek på bilder vid hover */
 
 .homepod:hover {
     transform: scale(1.1);
 }
+/* Ändrar storlek på bilder vid hover */
+
 
 
 
